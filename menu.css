@@ -1,0 +1,38 @@
+body{
+    margin: 0%;
+}
+html{
+    margin: 0%;
+}
+nav{
+    display: flex;
+    background-image: linear-gradient(to right, #0059ff, #4184ff);
+    height: 8vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+a.NavTite{
+    text-decoration: none;
+    color: white;
+    margin-left: 5px;
+    flex: 70%;
+}
+h1.NavTite{
+    margin: 0%;
+    margin-top: 1%;
+}
+a.NavLink{
+    flex: 10%;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 1.2vw;
+    font-weight: 600;
+    padding-top: 1.5%;
+    transition: ease-in-out .3s;
+}
+a.NavLink:hover{
+    background-image: none;
+    background-color: white;
+    color: black;
+    transition: ease-in-out .3s;
+}
