@@ -1,0 +1,91 @@
+#hero{
+    background-image: url(images/1000011049.webp);
+    position: relative;
+    height: 40vh;
+    background-size: cover;
+    background-position: 2px;
+    background-repeat: no-repeat;
+    margin-left: -2px;
+}
+div.hero-content{
+    position: absolute;
+    height: 50%;
+    width: 50%;
+    background-color: #33333385;
+    border-radius: 20px;
+    left: 25%;
+    top: 25%;
+    text-align: center;
+    transition: .3s ease-in-out;
+    color: white;
+}
+div.hero-content:hover{
+    color: #337bff;
+    background-color: #000000a1;
+    transition: .3s ease-in-out;
+}
+h2.hero-content{
+    margin: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2vw;
+    position: absolute;
+    top: 40%;
+    left: 15%;
+}
+main{
+    background-image: linear-gradient(to left, #000000, #0c0c0c);
+    height: 49vh;
+    position: relative;
+}
+#bio{
+    position: absolute;
+    height: 75%;
+    width: 50%;
+    top: 7.5%;
+    left: 25%;
+    background-image: linear-gradient(to left, #0059ff, #5f97ff);
+    border-radius: 10px;
+    display: flex;
+}
+.bio{
+    margin: 0px;
+    flex: 50%;
+    padding: 3px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+ul.bio-content{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    column-count: 2;
+    text-align: justify;
+    margin-left: 2vw;
+    margin-bottom: 3vh;
+}
+ul.bio-content li::before{
+    content: "❖";
+    color: #000000; 
+    font-weight: bold; 
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em; 
+}
+ul.bio-content li{
+    margin-bottom: 5px;
+    font-size: 1vw;
+}
+.bio-content{
+    margin: 0px;
+}
+h4.bio-content{
+    font-size: 1.5vw;
+    text-align: center;
+}
+p.bio-content{
+    font-size: 1vw;
+    text-align: center;
+}
+div.bio-text{
+    margin-top: 3vh;
+    flex: 50%;
+}
