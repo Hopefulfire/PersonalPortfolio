@@ -72,7 +72,7 @@ ul.bio-content li::before{
 }
 ul.bio-content li{
     margin-bottom: 5px;
-    font-size: 1vw;
+    font-size: .8vw;
 }
 .bio-content{
     margin: 0px;
