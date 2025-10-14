@@ -1,0 +1,10 @@
+main{
+    position: relative;
+    background-image: linear-gradient(to left, #000000, #0a0a0a);
+    height: 100vh;
+
+}
+div.wide-3-display{
+    display: flex;
+    height: 33%;
+}

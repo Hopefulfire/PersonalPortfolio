@@ -43,7 +43,7 @@ p.footer{
     margin: 0%;
 }
 footer{
-    position: absolute;
+    position: sticky;
     bottom: 0%;
     background-image: linear-gradient(to right, #0059ff, #5f97ff);
     width: 100%;
