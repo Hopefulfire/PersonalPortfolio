@@ -6,7 +6,7 @@ html{
 }
 nav{
     display: flex;
-    background-image: linear-gradient(to right, #0059ff, #5f97ff);
+    background-image: linear-gradient(to left, #FD7979, #FDACAC);
     height: 8vh;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -29,23 +29,23 @@ a.NavLink{
     font-weight: 600;
     padding-top: 2vh;
     transition: ease-in-out .3s;
-    border-left: 1px black solid;
+    border-left: 1px #FEEAC9 solid;
 }
 a.NavLink:last-child{
-    border-right: 1px solid black;
+    border-right: 1px solid #FFCDC9;
 }
 a.NavLink:hover{
     background-image: none;
-    background-color: #00000081;
+    background-color: #ffdba03f;
     transition: ease-in-out .3s;
 }
 p.footer{
     margin: 0%;
 }
 footer{
-    position: absolute;
+    position: fixed;
     bottom: 0%;
-    background-image: linear-gradient(to right, #0059ff, #5f97ff);
+    background-image: linear-gradient(to left, #FD7979, #FDACAC);
     width: 100%;
     text-align: center;
     height: 3vh;

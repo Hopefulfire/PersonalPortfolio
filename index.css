@@ -1,3 +1,6 @@
+body{
+    background-color: #000000;
+}
 #hero{
     background-image: url(images/1000011049.webp);
     position: relative;
@@ -33,17 +36,22 @@ h2.hero-content{
     left: 15%;
 }
 main{
-    background-image: linear-gradient(to left, #000000, #0c0c0c);
-    height: 49vh;
+    background-color: #000000;
+    height: fit-content;
+    padding: 2%;
     position: relative;
+    background-size: cover;
+    background-repeat: repeat;
 }
 #bio{
-    position: absolute;
-    height: 75%;
+    position: relative;
+    height: fit-content;
     width: 50%;
     top: 7.5%;
     left: 25%;
     background-image: linear-gradient(to left, #0059ff, #5f97ff);
+    background-size: cover;
+    background-repeat: repeat;
     border-radius: 10px;
     display: flex;
 }
