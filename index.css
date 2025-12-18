@@ -1,5 +1,8 @@
 body{
-    background-color: #000000;
+    background-color: #F8F4EC;
+    margin: 0px;
+    padding: 0%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 #hero{
     background-image: url(images/1000011049.webp);
@@ -14,17 +17,17 @@ div.hero-content{
     position: absolute;
     height: 50%;
     width: 50%;
-    background-color: #33333385;
+    background-color: #43334C85;
     border-radius: 20px;
     left: 25%;
     top: 25%;
     text-align: center;
     transition: .3s ease-in-out;
-    color: white;
+    color: #F8F4EC;
 }
 div.hero-content:hover{
-    color: #337bff;
-    background-color: #000000a1;
+    color: #43334C;
+    background-color: #F8F4EC85;
     transition: .3s ease-in-out;
 }
 h2.hero-content{
@@ -36,7 +39,7 @@ h2.hero-content{
     left: 15%;
 }
 main{
-    background-color: #000000;
+    background-color: #F8F4EC;
     height: fit-content;
     padding: 2%;
     position: relative;
@@ -49,11 +52,12 @@ main{
     width: 50%;
     top: 7.5%;
     left: 25%;
-    background-image: linear-gradient(to left, #0059ff, #5f97ff);
+    background-color: #43334C;
     background-size: cover;
     background-repeat: repeat;
     border-radius: 10px;
     display: flex;
+    color: #F8F4EC;
 }
 .bio{
     margin: 0px;
@@ -72,7 +76,7 @@ ul.bio-content{
 }
 ul.bio-content li::before{
     content: "❖";
-    color: #000000; 
+    color: #E83C91; 
     font-weight: bold; 
     display: inline-block;
     width: 1em;
